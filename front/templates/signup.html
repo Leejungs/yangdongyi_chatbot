@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>회원가입 | 양동이</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body{margin:0;font-family:'Noto Sans KR',sans-serif;display:flex;justify-content:center;align-items:center;height:100vh;background:#f0f2f5}
+    .container{display:flex;width:1500px;height:700px;background:#fff;border-radius:20px;box-shadow:0 4px 20px rgba(0,0,0,.1);overflow:hidden;position:relative}
+    .logo-top{position:absolute;top:20px;right:20px;width:270px}
+    .left{flex:.7;background:#1E4DA1;color:#fff;display:flex;flex-direction:column;justify-content:center;padding:40px;position:relative}
+    .left h1{font-size:50px;margin-bottom:6px;text-align:left}
+    .left p{margin:0;font-size:18px;opacity:.95}
+    .character-center{position:absolute;top:50%;left:48.4%;transform:translate(-50%,-50%);width:1300px;pointer-events:none}
+    .right{flex:1;display:flex;justify-content:right;align-items:center;background:#f9f9f9}
+    .form-box{margin-left:300px}
+    .form-box h2{margin-bottom:10px;text-align:left}
+    :root{--field-w:60%;--field-h:46px}
+    .form-box input,.form-box select{width:var(--field-w);height:var(--field-h);padding:12px 14px;margin-bottom:6px;border:1px solid #ddd;border-radius:10px;font-size:14px;box-sizing:border-box;background:#fff}
+    .form-box select{appearance:none;-webkit-appearance:none;-moz-appearance:none;padding-right:36px;background-image:url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%2399A0A6' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center}
+    .actions{width:var(--field-w);display:flex;gap:10px;margin-top:8px}
+    .actions button{flex:1;height:var(--field-h);border:none;border-radius:8px;font-size:14px;cursor:pointer}
+    .btn-primary{background:#1E4DA1;color:#fff}.btn-primary:hover{background:#163a78}
+    .btn-secondary{background:#eef2ff;color:#1E4DA1}
+    .error{color:#b10017;font-size:13px;margin-top:6px;display:none;width:var(--field-w)}
+    .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#111827;color:#fff;padding:10px 14px;border-radius:10px;font-size:14px;display:none}
+    @media (max-width:900px){:root{--field-w:90%}.form-box{margin-left:0}.container{width:95vw;height:auto}.character-center{display:none}}
+
+    @media (max-width: 900px) {
+    :root { --field-w: 90%; }
+    .container {
+      width: 95vw;
+      height: auto;
+      flex-direction: column;
+    }
+    .left {
+      flex: none;
+      width: 100%;
+      text-align: center;
+      padding: 20px;
+    }
+    .left h1 { font-size: 32px; text-align:center; }
+    .left p { font-size: 14px; text-align:center; }
+    .character-center { display: none; }
+    .form-box {
+      margin: 20px auto;
+      width: 90%;
+    }
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="image/logo.png" alt="동양미래대학교 로고" class="logo-top" />
+
+    <div class="left">
+      <h1>회원가입</h1>
+      <p>동양미래대학교 챗봇 양동이 회원가입 페이지입니다.</p>
+    </div>
+
+    <div class="right">
+      <div class="form-box">
+        <h2>정보 입력</h2>
+
+        <input id="uid" type="text" placeholder="아이디(학번/교번) 예) 20231234" />
+        <select id="role">
+          <option value="">구분 선택</option>
+          <option value="student">학생</option>
+          <option value="faculty">교직원</option>
+          <option value="staff">외부인</option>
+        </select>
+
+        <input id="name" type="text" placeholder="이름 (예: 홍길동)" />
+        <input id="email" type="email" placeholder="학교 이메일 (아이디@dongyang.ac.kr)" />
+
+        <input id="pw" type="password" placeholder="비밀번호" />
+        <input id="pw2" type="password" placeholder="비밀번호 확인" />
+
+        <select id="department" required>
+          <option value="">학과 선택</option>
+          <optgroup label="기계공학부">
+            <option value="기계공학과">기계공학과</option>
+            <option value="기계설계공학과">기계설계공학과</option>
+          </optgroup>
+          <optgroup label="로봇자동화공학부">
+            <option value="자동화공학과">자동화공학과</option>
+            <option value="로봇소프트웨어과">로봇소프트웨어과</option>
+          </optgroup>
+          <optgroup label="전기전자통신공학부">
+            <option value="전기공학과">전기공학과</option>
+            <option value="반도체전자공학과">반도체전자공학과</option>
+            <option value="정보통신공학과">정보통신공학과</option>
+            <option value="소방안전관리과">소방안전관리과</option>
+          </optgroup>
+          <optgroup label="컴퓨터공학부">
+            <option value="웹응용소프트웨어공학과">웹응용소프트웨어공학과</option>
+            <option value="컴퓨터소프트웨어공학과">컴퓨터소프트웨어공학과</option>
+            <option value="인공지능소프트웨어학과">인공지능소프트웨어학과</option>
+          </optgroup>
+          <optgroup label="생활환경공학부">
+            <option value="생명화학공학과">생명화학공학과</option>
+            <option value="바이오융합공학과">바이오융합공학과</option>
+            <option value="건축과">건축과</option>
+            <option value="실내건축디자인과">실내건축디자인과</option>
+            <option value="시각디자인과">시각디자인과</option>
+            <option value="AR·VR콘텐츠디자인과">AR·VR콘텐츠디자인과</option>
+          </optgroup>
+          <optgroup label="경영학부">
+            <option value="경영학과">경영학과</option>
+            <option value="세무회계학과">세무회계학과</option>
+            <option value="유통마케팅학과">유통마케팅학과</option>
+            <option value="호텔관광학과">호텔관광학과</option>
+            <option value="경영정보학과">경영정보학과</option>
+            <option value="빅데이터경영과">빅데이터경영과</option>
+          </optgroup>
+          <optgroup label="기타">
+            <option value="자유전공학과">자유전공학과</option>
+            <option value="교양과">교양과</option>
+          </optgroup>
+        </select>
+
+        <div id="err" class="error">에러 메시지</div>
+
+        <div class="actions">
+          <button class="btn-primary" id="submitBtn">가입하기</button>
+          <button class="btn-secondary" onclick="location.href='login.html'">로그인으로</button>
+        </div>
+      </div>
+    </div>
+
+    <img src="image/yangdongi.png" alt="양동이 중앙" class="character-center" />
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <script>
+    const API_BASE = window.location.origin;   // 예: http://192.168.43.138:8001
+
+    function toast(msg){
+      const t = document.getElementById("toast");
+      t.textContent = msg;
+      t.style.display = "block";
+      setTimeout(()=> t.style.display="none", 1500);
+    }
+
+    document.getElementById("submitBtn").addEventListener("click", async () => {
+      const uid   = document.getElementById("uid").value.trim();
+      const role  = document.getElementById("role").value.trim();
+      const name  = document.getElementById("name").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const pw    = document.getElementById("pw").value;
+      const pw2   = document.getElementById("pw2").value;
+      const dept  = document.getElementById("department").value.trim();
+
+      const err = document.getElementById("err");
+      err.style.display = "none";
+
+      if(!uid || !role || !name || !email || !pw || !pw2 || !dept){
+        err.textContent = "필수 항목을 모두 입력해 주세요.";
+        err.style.display = "block";
+        return;
+      }
+      if(pw !== pw2){
+        err.textContent = "비밀번호가 일치하지 않습니다.";
+        err.style.display = "block";
+        return;
+      }
+
+      try{
+        const res = await fetch(`${API_BASE}/api/signup`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          credentials: "include",      // (필수는 아니지만 통일)
+          body: JSON.stringify({ uid, role, name, email, password: pw, dept })
+        });
+        const data = await res.json();
+
+        if(!res.ok || !data.ok){
+          err.textContent = data.msg || "회원가입에 실패했습니다.";
+          err.style.display = "block";
+          return;
+        }
+
+        toast("가입이 완료되었습니다. 로그인 화면으로 이동합니다.");
+        setTimeout(()=> location.href = "login.html", 900);
+
+      }catch(e){
+        err.textContent = "서버와 통신 중 오류가 발생했습니다.";
+        err.style.display = "block";
+      }
+    });
+  </script>
+</body>
+</html>

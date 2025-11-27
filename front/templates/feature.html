@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>기능 페이지 | 양동이 챗봇 1.0</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Pretendard", "Noto Sans KR", sans-serif;
+      background: #f3f6fb;
+      color: #1f2a37;
+      padding: 40px;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    }
+
+    th, td {
+      padding: 14px 16px;
+      border-bottom: 1px solid #e5e7eb;
+      text-align: left;
+    }
+
+    th {
+      background: #1565d8;
+      color: white;
+      font-weight: 600;
+    }
+
+    tr:hover {
+      background: #f1f5fb;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-left: 8px;
+      background: #1565d8;
+      color: #fff;
+      font-size: 0.75em;
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 20px;
+      background: #1565d8;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.2s;
+    }
+
+    .back-btn:hover {
+      background: #0f4aa4;
+    }
+
+    .date-cell {
+      white-space: nowrap;
+      color: #4b5563;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+
+<body>
+  <h2 id="pageTitle">📋 전체 공지사항</h2>
+
+  <table class="styled-table">
+    <thead id="tableHead">
+      <tr>
+        <th>제목</th>
+        <th>작성일</th>
+        <th>상태</th>
+      </tr>
+    </thead>
+    <tbody id="noticeTableBody">
+      <tr><td colspan="3">불러오는 중...</td></tr>
+    </tbody>
+  </table>
+
+  <a href="/" class="back-btn">← 메인으로 돌아가기</a>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const params = new URLSearchParams(window.location.search);
+    const feature = params.get("feature");
+    const tbody = document.querySelector("#noticeTableBody");
+    const titleEl = document.querySelector("#pageTitle");
+    const tableHead = document.querySelector("#tableHead");
+
+    // ✅ 1️⃣ 공지사항
+    if (feature === "notice") {
+      titleEl.textContent = "📢 전체 공지사항";
+      fetch("/api/notices/all")
+        .then(res => res.json())
+        .then(data => {
+          if (!data.ok || !data.notices.length) {
+            tbody.innerHTML = "<tr><td colspan='3'>공지사항이 없습니다.</td></tr>";
+            return;
+          }
+          tbody.innerHTML = data.notices.map(n => `
+            <tr>
+              <td><a href="${n.url}" target="_blank">${n.title}</a></td>
+              <td class="date-cell">${n.date}</td>
+              <td>${n.badge ? `<span class='badge'>${n.badge}</span>` : "-"}</td>
+            </tr>
+          `).join('');
+        })
+        .catch(() => {
+          tbody.innerHTML = "<tr><td colspan='3'>불러오기 실패</td></tr>";
+        });
+    }
+
+    // ✅ 2️⃣ 장학금
+    else if (feature === "scholarship") {
+      titleEl.textContent = "🎓 장학금 안내";
+      tableHead.innerHTML = `
+        <tr>
+          <th>장학명</th>
+          <th>신청기간</th>
+          <th>비고</th>
+        </tr>`;
+      fetch("/api/scholarship")
+        .then(res => res.json())
+        .then(data => {
+          tbody.innerHTML = data.map(row => `
+            <tr>
+              <td>${row.name}</td>
+              <td>${row.period}</td>
+              <td>${row.note || "-"}</td>
+            </tr>
+          `).join('');
+        });
+    }
+
+    // ✅ 3️⃣ eClass 과제
+    else if (feature === "eclass") {
+      titleEl.textContent = "🖥️ eClass 과제 목록";
+      tableHead.innerHTML = `
+        <tr>
+          <th>과목명</th>
+          <th>과제 제목</th>
+          <th>마감일</th>
+          <th>상태</th>
+        </tr>`;
+      fetch("/api/assignments/all")
+        .then(res => res.json())
+        .then(data => {
+          console.log("📘 과제 데이터:", data);
+          if (!data.length) {
+            tbody.innerHTML = "<tr><td colspan='4'>등록된 과제가 없습니다.</td></tr>";
+            return;
+          }
+          tbody.innerHTML = data.map(row => `
+            <tr>
+              <td>${row.subject_name || "-"}</td>
+              <td>${row.title || "-"}</td>
+              <td>${row.due_date ? row.due_date.split('T')[0] : "-"}</td>
+              <td>${row.status || "-"}</td>
+            </tr>
+          `).join('');
+        })
+        .catch(() => {
+          tbody.innerHTML = "<tr><td colspan='4'>불러오기 실패</td></tr>";
+        });
+    }
+
+    // ✅ 4️⃣ 기본
+    else {
+      tbody.innerHTML = "<tr><td colspan='3'>잘못된 접근입니다.</td></tr>";
+    }
+  });
+  </script>
+</body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>양동이 챗봇 로그인</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans KR', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f0f2f5;
+    }
+
+    .container {
+      display: flex;
+      width: 1500px;
+      height: 700px;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,.1);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .logo-top {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 270px;
+    }
+
+    .left {
+      flex: .7;
+      background: #1E4DA1;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px;
+      position: relative;
+    }
+    .left h1 {
+      font-size: 50px;
+      margin-bottom: 5px;
+      text-align: left;
+    }
+    .left p {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .character-center {
+      position: absolute;
+      top: 50%;
+      left: 48.4%;
+      transform: translate(-50%,-50%);
+      width: 1300px;
+      pointer-events: none;
+    }
+
+    .right {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f9f9f9;
+    }
+
+    .login-box {
+      width: 340px;
+      max-width: 85%;
+      padding: 0px;
+      border-radius: 16px;
+      text-align: center;
+    }
+
+    .login-box h2 {
+      margin: 0 0 20px;
+      text-align: left;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .login-box input {
+      width: 100%;
+      height: 48px;
+      padding: 12px 14px;
+      margin-bottom: 12px;
+      box-sizing: border-box;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      font-size: 14px;
+      background: #f7f8fb;
+      transition: border-color .15s ease, background .15s ease;
+    }
+    .login-box input:focus {
+      outline: none;
+      background: #fff;
+      border-color: #3b82f6;
+    }
+    .login-box input.error { border-color:#ef4444; }
+
+    .login-box button {
+      width: 100%;
+      height: 48px;
+      padding: 12px 14px;
+      border: none;
+      background: #1E4DA1;
+      color: #fff;
+      font-size: 14px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 8px;
+    }
+    .login-box button:hover { background:#163a78 }
+    .login-box button:disabled { opacity:.6; cursor:not-allowed }
+
+    .signup {
+      margin-top: 12px;
+      font-size: 14px;
+      text-align: left;
+    }
+    .signup a {
+      color:#1E4DA1;
+      text-decoration:none;
+    }
+
+    .err-slot {
+      height: 18px;
+      line-height: 18px;
+      margin: 4px 0 0;
+      font-size: 13px;
+      color: #b10017;
+      visibility: hidden;
+    }
+    .err-slot.show { visibility: visible; }
+
+    .toast {
+      position: fixed;
+      left: 50%;
+      bottom: 24px;
+      transform: translateX(-50%);
+      background: #111827;
+      color: #fff;
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-size: 14px;
+      display: none;
+    }
+
+    @media (max-width: 900px) {
+      .container {
+        width: 95vw;
+        height: auto;
+        flex-direction: column;
+      }
+      .left {
+        flex: none;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+      }
+      .left h1 { font-size: 32px; text-align:center; }
+      .left p { font-size: 14px; text-align:center; }
+      .character-center { display: none; }
+      .login-box {
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+      }
+    }
+
+    #guestBtn { background:#6b7280 }
+    #guestBtn:hover { background:#565e6c }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="image/logo.png" alt="동양미래대학교 로고" class="logo-top" />
+
+    <div class="left">
+      <h1>로그인</h1>
+      <p>동양미래대학교 챗봇 양동이 로그인 페이지입니다.</p>
+    </div>
+
+    <div class="right">
+      <div class="login-box">
+        <h2>로그인</h2>
+
+        <input id="login-id" type="text" placeholder="ID (학번/교번)" />
+        <input id="login-pw" type="password" placeholder="Password" />
+        <div id="login-err" class="err-slot"></div>
+
+        <button id="loginBtn">로그인</button>
+        <button id="guestBtn" type="button">비회원 로그인</button>
+
+        <div class="signup">
+          계정이 없으신가요? <a href="signup.html">회원가입</a>을 눌러주세요!
+        </div>
+      </div>
+    </div>
+
+    <img src="image/yangdongi.png" alt="양동이 중앙" class="character-center" />
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <script>
+    const API_BASE = window.location.origin;
+
+    function toast(msg){
+      const t = document.getElementById("toast");
+      t.textContent = msg;
+      t.style.display = "block";
+      setTimeout(()=> t.style.display="none", 1500);
+    }
+
+    function showError(msg){
+      const err = document.getElementById("login-err");
+      err.textContent = msg || "";
+      err.classList.add("show");
+      document.getElementById("login-id").classList.add("error");
+      document.getElementById("login-pw").classList.add("error");
+    }
+    function clearError(){
+      const err = document.getElementById("login-err");
+      err.textContent = "";
+      err.classList.remove("show");
+      document.getElementById("login-id").classList.remove("error");
+      document.getElementById("login-pw").classList.remove("error");
+    }
+
+    async function doLogin(){
+      const id = document.getElementById("login-id").value.trim();
+      const password = document.getElementById("login-pw").value;
+      const btn = document.getElementById("loginBtn");
+
+      clearError();
+
+      if(!id || !password){
+        showError("ID와 비밀번호를 입력해 주세요.");
+        return;
+      }
+
+      try{
+        btn.disabled = true;
+
+        // ✅ uid 키 추가해서 Flask 호환성 확보
+        const res = await fetch(`${API_BASE}/api/login`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          credentials: "include",
+          body: JSON.stringify({ id, uid: id, password })
+        });
+
+        const data = await res.json().catch(()=> ({}));
+
+        if(!res.ok || !data.ok){
+          showError(data.msg || "로그인 실패");
+          return;
+        }
+
+        toast("로그인 성공! 이동합니다.");
+        setTimeout(()=> location.href = "/", 500);
+      }catch(e){
+        showError("서버와 통신 중 오류가 발생했습니다.");
+      }finally{
+        btn.disabled = false;
+      }
+    }
+
+    document.getElementById("loginBtn").addEventListener("click", doLogin);
+
+    ["login-id","login-pw"].forEach(id=>{
+      document.getElementById(id).addEventListener("keydown", (e)=>{
+        if(e.key === "Enter") doLogin();
+      });
+      document.getElementById(id).addEventListener("input", clearError);
+    });
+
+    document.getElementById('guestBtn').addEventListener('click', ()=>{
+      localStorage.setItem("isGuest", "true");
+      localStorage.removeItem("isLoggedIn");
+      location.href = "guest.html";
+    });
+  </script>
+</body>
+</html>
