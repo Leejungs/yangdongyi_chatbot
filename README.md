@@ -63,7 +63,7 @@
 ### 📌 1) 시스템 목적 / 용도
 
 <div align="center">
-  <img src=""C:\Users\wjdtn\OneDrive\바탕 화면\썸네일.png"" width="80%">
+  <img width="1056" height="594" alt="3" src="https://github.com/user-attachments/assets/572ca568-c829-497d-a978-95f07159f3d0" width="80%">
 </div>
 
 ---
@@ -95,7 +95,7 @@
 ### 📌 5) 메인 페이지
 
 <div align="center">
-  <img src="이미지_URL_메인" width="80%">
+  <img width="1584" height="824" alt="메인페이지" src="https://github.com/user-attachments/assets/a5adeae8-fcca-46b4-84a5-a5457cfde021" width="80%">
 </div>
 
 ---
@@ -103,7 +103,7 @@
 ### 📌 6) 기능 상세
 
 <div align="center">
-  <img src="이미지_URL_기능" width="80%">
+  <img width="1056" height="594" alt="제목 없음" src="https://github.com/user-attachments/assets/2127b932-f92a-4ecc-8a35-3ff2a68b3ef5" width="80%">
 </div>
 
 <br>
