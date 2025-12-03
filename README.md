@@ -71,7 +71,7 @@
 ### 📌 2) 경쟁·유사 서비스 분석
 
 <div align="center">
-  <img src="이미지_URL_2" width="80%">
+  <img width="1056" height="594" alt="2" src="https://github.com/user-attachments/assets/c7cb0b90-26a2-4b73-a6ef-a0624aac7201" width="80%">
 </div>
 
 ---
@@ -79,7 +79,7 @@
 ### 📌 3) 개발 범위
 
 <div align="center">
-  <img src="이미지_URL_3" width="80%">
+  <img width="1056" height="594" alt="4" src="https://github.com/user-attachments/assets/bdce5927-e962-4f01-8d9f-f1fe6160d971" width="80%">
 </div>
 
 ---
