@@ -87,7 +87,7 @@
 ### 📌 4) 로그인 페이지
 
 <div align="center">
-  <img src="이미지_URL_로그인" width="80%">
+  <img width="1588" height="798" alt="로그인페이지" src="https://github.com/user-attachments/assets/beb6dd75-8361-4363-98e8-65ad12238011" width="80%">
 </div>
 
 ---
