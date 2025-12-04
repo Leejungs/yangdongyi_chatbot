@@ -1,9 +1,14 @@
-<div style="display: flex; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/d0f151a2-bda4-4454-a299-2c2e4240646d" width="90" style="margin-right: 15px;">
+<div style="display: flex; align-items: center; gap: 16px;">
+
+  <img src="https://github.com/user-attachments/assets/9a0ebc0a-a1a3-45a4-877f-2d5d202f54a1" width="80" />
+
   <h1 style="margin: 0;">양동이 챗봇 (Yangdongyi Chatbot)</h1>
+
+
 </div>
 
 동양미래대학교 학사 정보를 더 쉽고, 더 빠르게, 더 정확하게 전달하기 위한 대학생 전용 AI 도우미
+
 
 
 <br>
