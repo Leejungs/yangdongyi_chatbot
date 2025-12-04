@@ -63,7 +63,7 @@
 ### 📌 1) 시스템 목적 / 용도
 
 <div align="center">
-  <img width="1056" height="594" alt="3" src="https://github.com/user-attachments/assets/572ca568-c829-497d-a978-95f07159f3d0" width="40%">
+  <img width="1056" height="594" alt="3" src="https://github.com/user-attachments/assets/572ca568-c829-497d-a978-95f07159f3d0" width="70%">
 </div>
 
 ---
@@ -71,7 +71,7 @@
 ### 📌 2) 경쟁·유사 서비스 분석
 
 <div align="center">
-  <img width="1056" height="594" alt="2" src="https://github.com/user-attachments/assets/c7cb0b90-26a2-4b73-a6ef-a0624aac7201" width="40%">
+  <img width="1056" height="594" alt="2" src="https://github.com/user-attachments/assets/c7cb0b90-26a2-4b73-a6ef-a0624aac7201" width="70%">
 </div>
 
 ---
