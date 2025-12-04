@@ -63,7 +63,7 @@
 ### 📌 1) 시스템 목적 / 용도
 
 <div align="center">
-  <img width="500" height="240" alt="3" src="https://github.com/user-attachments/assets/572ca568-c829-497d-a978-95f07159f3d0" width="70%">
+  <img src="https://github.com/user-attachments/assets/572ca568-c829-497d-a978-95f07159f3d0" width="650">
 </div>
 
 ---
