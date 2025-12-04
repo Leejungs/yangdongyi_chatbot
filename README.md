@@ -46,8 +46,9 @@
 
 |                         회원 로그인                          |                         회원 로그인                          |                       비회원 로그인                          |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|    (로그인상태) 메인페이지 -> 설정 -> 다크모드 on/off         |       (로그인상태) 수업시간표/자격증안내/학점조회 열람          |   (비로그인상태) 비회원 로그인 -> 입학안내/학과소개/캠퍼스안내 열람 |
-| <img src="https://github.com/user-attachments/assets/7424ecc1-da63-4ca7-af79-28f8341d2d68" alt="자녀 홈 걷고있는 돈길_compressed" style="zoom:33%;" /> | <img src="https://github.com/user-attachments/assets/ae1aed36-999f-41bb-a339-732a00665f40" alt="자녀 홈 대기중인 돈길" style="zoom:33%;" /> | <img src="https://github.com/user-attachments/assets/7c2d000a-8600-4298-a4cc-11c1840752de" alt="알림 내역_compressed" style="zoom:33%;" /> |
+|    (로그인상태) 메인페이지 → 설정 → 다크모드 on/off         |  (로그인상태) 수업시간표/자격증안내/학점조회 열람            | (비로그인상태) 비회원 로그인 → 입학안내/학과소개/캠퍼스안내 열람 |
+| <img src="https://github.com/user-attachments/assets/7424ecc1-da63-4ca7-af79-28f8341d2d68" width="240px" /> | <img src="https://github.com/user-attachments/assets/ae1aed36-999f-41bb-a339-732a00665f40" width="240px" /> | <img src="https://github.com/user-attachments/assets/7c2d000a-8600-4298-a4cc-11c1840752de" width="240px" /> |
+
 
 <details>
 <summary>자세히</summary>
