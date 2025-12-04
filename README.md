@@ -61,6 +61,7 @@
       • 학사 일정, 휴강 정보 실시간 응답
       </p>
     </td>
+       <br>
     <td width="30%" align="center" style="padding: 20px; border: 1px solid #333; border-radius: 10px; background:#0f0f0f;">
       <img src="이미지URL_일정" width="60"><br><br>
       <b>학사 일정/공지 자동 연동</b>
