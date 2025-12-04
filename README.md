@@ -135,10 +135,10 @@
 <table>
   <tr>
     <td align="center" width="150">
-      <img src="https://github.com/USER1.png" width="100" height="100" style="border-radius:50%;">
+      <img src="https://github.com/rladnrgus.png" width="100" height="100" style="border-radius:50%;">
       <br><b>김욱현</b><br>
       Frontend<br>
-      <a href="https://github.com/USER1">GitHub</a>
+      <a href="https://github.com/rladnrgus">GitHub</a>
     </td>
     <td align="center" width="150">
       <img src="https://github.com/jjian2.png" width="100" height="100" style="border-radius:50%;">
@@ -147,10 +147,10 @@
       <a href="https://github.com/jjian2">GitHub</a>
     </td>
     <td align="center" width="150">
-      <img src="https://github.com/USER3.png" width="100" height="100" style="border-radius:50%;">
+      <img src="https://github.com/soyeonprincesss.png" width="100" height="100" style="border-radius:50%;">
       <br><b>박소연</b><br>
       Backend<br>
-      <a href="https://github.com/USER3">GitHub</a>
+      <a href="https://github.com/soyeonprincesss">GitHub</a>
     </td>
     <td align="center" width="150">
       <img src="https://github.com/Leejungs.png" width="100" height="100" style="border-radius:50%;">
@@ -159,16 +159,16 @@
       <a href="https://github.com/Leejungs">GitHub</a>
     </td>
     <td align="center" width="150">
-      <img src="https://github.com/USER5.png" width="100" height="100" style="border-radius:50%;">
+      <img src="https://github.com/thdnjs0730.png" width="100" height="100" style="border-radius:50%;">
       <br><b>최소원</b><br>
       AI/ML<br>
-      <a href="https://github.com/USER5">GitHub</a>
+      <a href="https://github.com/thdnjs0730 ">GitHub</a>
     </td>
     <td align="center" width="150">
-      <img src="https://github.com/USER6.png" width="100" height="100" style="border-radius:50%;">
+      <img src="https://github.com/sjunc.png" width="100" height="100" style="border-radius:50%;">
       <br><b>차성준</b><br>
       AI/ML<br>
-      <a href="https://github.com/USER6">GitHub</a>
+      <a href="https://github.com/sjunc">GitHub</a>
     </td>
   </tr>
 </table>
