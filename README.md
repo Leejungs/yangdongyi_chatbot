@@ -127,38 +127,54 @@
 # 팀원 소개
 ## 👥 Team Members
 
-## 👥 Team Members
 
+<div align="center">
 
 <table>
   <tr>
-    <td align="center" width="160">
-      <img src="https://github.com/USER1.png" width="120" height="120" style="border-radius:50%;">
+    <td align="center" width="150">
+      <img src="https://github.com/USER1.png" width="100" height="100" style="border-radius:50%;">
       <br><b>김욱현</b><br>
-      Frontend Developer<br>
+      Frontend<br>
       <a href="https://github.com/USER1">GitHub</a>
     </td>
-    <td align="center" width="160">
-      <img src="https://github.com/USER2.png" width="120" height="120" style="border-radius:50%;">
+
+    <td align="center" width="150">
+      <img src="https://github.com/USER2.png" width="100" height="100" style="border-radius:50%;">
       <br><b>최지안</b><br>
-      Frontend Developer<br>
+      Frontend<br>
       <a href="https://github.com/jjian2">GitHub</a>
     </td>
-    <td align="center" width="160">
-      <img src="https://github.com/USER3.png" width="120" height="120" style="border-radius:50%;">
+
+    <td align="center" width="150">
+      <img src="https://github.com/USER3.png" width="100" height="100" style="border-radius:50%;">
       <br><b>박소연</b><br>
-      Backend Developer<br>
+      Backend<br>
       <a href="https://github.com/USER3">GitHub</a>
     </td>
-  </tr>
-  <tr>
-    <td align="center" width="160">
-      <img src="https://github.com/Leejungs.png" width="120" height="120" style="border-radius:50%;">
+
+    <td align="center" width="150">
+      <img src="https://github.com/Leejungs.png" width="100" height="100" style="border-radius:50%;">
       <br><b>이정수</b><br>
-      Backend Developer<br>
+      Backend<br>
       <a href="https://github.com/Leejungs">GitHub</a>
     </td>
-    <td align="center" width="160">
-      <img src="https://github.com/USER5.png" width="120" height="120" style="border-radius:50%;">
+
+    <td align="center" width="150">
+      <img src="https://github.com/USER5.png" width="100" height="100" style="border-radius:50%;">
       <br><b>최소원</b><br>
-      AI Engineer<br
+      AI/ML<br>
+      <a href="https://github.com/USER5">GitHub</a>
+    </td>
+
+    <td align="center" width="150">
+      <img src="https://github.com/USER6.png" width="100" height="100" style="border-radius:50%;">
+      <br><b>차성준</b><br>
+      AI/ML<br>
+      <a href="https://github.com/USER6">GitHub</a>
+    </td>
+  </tr>
+</table>
+
+</div>
+
