@@ -48,7 +48,7 @@
 |                         홈 탭 (자녀)                         |                         홈 탭 (자녀)                         |                       알림내역 (공통)                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |    걷고있는 돈길 → 돈길 포기하기<br />→ 실패한 돈길 삭제     |               대기중인 돈길 → 거절된 돈길 삭제               |                         무한 스크롤                          |
-| <img src="https://user-images.githubusercontent.com/83692797/195265630-cdf4a7a9-9a5b-4aef-a95e-8deec1fa73c8.gif" alt="자녀 홈 걷고있는 돈길_compressed" style="zoom:33%;" /> | <img src="https://user-images.githubusercontent.com/83692797/195265658-426cec67-a1cf-4c28-b401-a89134b562e2.gif" alt="자녀 홈 대기중인 돈길" style="zoom:33%;" /> | <img src="https://user-images.githubusercontent.com/83692797/195265679-cadcc309-da94-4371-85e7-dc00ac4c420c.gif" alt="알림 내역_compressed" style="zoom:33%;" /> |
+| <img src="여기 gif" alt="자녀 홈 걷고있는 돈길_compressed" style="zoom:33%;" /> | <img src="여기 gif" alt="자녀 홈 대기중인 돈길" style="zoom:33%;" /> | <img src="여기 gif" alt="알림 내역_compressed" style="zoom:33%;" /> |
 
 <details>
 <summary>자세히</summary>
