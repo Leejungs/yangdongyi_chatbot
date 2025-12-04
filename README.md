@@ -76,7 +76,7 @@
         style="padding:28px 16px; border-right:1px solid #333333;"
       >
         <img
-          src="IMAGE_URL_1"
+          src="https://github.com/user-attachments/assets/18c450d0-f990-4ae0-9f71-807af9becc0b"
           style="width:100%; max-width:360px; border-radius:6px;"
         />
       </td>
