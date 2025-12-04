@@ -129,7 +129,6 @@
 
 ## 👥 Team Members
 
-<div align="center">
 
 <table>
   <tr>
