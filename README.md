@@ -63,7 +63,7 @@
 ### 📌 1) 시스템 목적 / 용도
 
 <div align="center">
-  <img width="1056" height="594" alt="3" src="https://github.com/user-attachments/assets/572ca568-c829-497d-a978-95f07159f3d0" width="80%">
+  <img width="1056" height="594" alt="3" src="https://github.com/user-attachments/assets/572ca568-c829-497d-a978-95f07159f3d0" width="70%">
 </div>
 
 ---
@@ -71,7 +71,7 @@
 ### 📌 2) 경쟁·유사 서비스 분석
 
 <div align="center">
-  <img width="1056" height="594" alt="2" src="https://github.com/user-attachments/assets/c7cb0b90-26a2-4b73-a6ef-a0624aac7201" width="80%">
+  <img width="1056" height="594" alt="2" src="https://github.com/user-attachments/assets/c7cb0b90-26a2-4b73-a6ef-a0624aac7201" width="70%">
 </div>
 
 ---
@@ -79,7 +79,7 @@
 ### 📌 3) 개발 범위
 
 <div align="center">
-  <img width="1056" height="594" alt="4" src="https://github.com/user-attachments/assets/bdce5927-e962-4f01-8d9f-f1fe6160d971" width="80%">
+  <img width="1056" height="594" alt="4" src="https://github.com/user-attachments/assets/bdce5927-e962-4f01-8d9f-f1fe6160d971" width="70%">
 </div>
 
 ---
@@ -87,7 +87,7 @@
 ### 📌 4) 로그인 페이지
 
 <div align="center">
-  <img width="1588" height="798" alt="로그인페이지" src="https://github.com/user-attachments/assets/beb6dd75-8361-4363-98e8-65ad12238011" width="80%">
+  <img width="1588" height="798" alt="로그인페이지" src="https://github.com/user-attachments/assets/beb6dd75-8361-4363-98e8-65ad12238011" width="70%">
 </div>
 
 ---
@@ -95,7 +95,7 @@
 ### 📌 5) 메인 페이지
 
 <div align="center">
-  <img width="1584" height="824" alt="메인페이지" src="https://github.com/user-attachments/assets/a5adeae8-fcca-46b4-84a5-a5457cfde021" width="80%">
+  <img width="1584" height="824" alt="메인페이지" src="https://github.com/user-attachments/assets/a5adeae8-fcca-46b4-84a5-a5457cfde021" width="70%">
 </div>
 
 ---
@@ -103,7 +103,7 @@
 ### 📌 6) 기능 상세
 
 <div align="center">
-  <img width="1056" height="594" alt="제목 없음" src="https://github.com/user-attachments/assets/2127b932-f92a-4ecc-8a35-3ff2a68b3ef5" width="80%">
+  <img width="1056" height="594" alt="제목 없음" src="https://github.com/user-attachments/assets/2127b932-f92a-4ecc-8a35-3ff2a68b3ef5" width="70%">
 </div>
 
 <br>
