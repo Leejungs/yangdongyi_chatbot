@@ -43,35 +43,43 @@
 
 ## 주요 기능
 
-<div style="width:100%; background:#0d0d0d; padding:20px; border-radius:8px; border:1px solid #222;">
+### 4.3. 돈길 계약하기, 돈길 걷기 탭 (자녀)
 
-  <!-- 제목 2개 (상단 바) -->
-  <table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse; margin-bottom:10px;">
-    <tr style="background:#111;">
-      <td align="center" width="50%" style="padding:12px; color:#fff; font-size:18px; font-weight:600;">
-        제목 1
-      </td>
-      <td align="center" width="50%" style="padding:12px; color:#fff; font-size:18px; font-weight:600;">
-        제목 2
-      </td>
-    </tr>
-  </table>
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse; margin-top:8px;">
 
-  <!-- 이미지 2개 (본문 박스) -->
-  <table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;">
-    <tr>
-      <!-- LEFT IMAGE -->
-      <td align="center" width="50%" style="padding:20px; border-right:1px solid #333;">
-        <img src="IMAGE_URL_1"
-             style="width:280px; border-radius:6px;">
-      </td>
-      <!-- RIGHT IMAGE -->
-      <td align="center" width="50%" style="padding:20px;">
-        <img src="IMAGE_URL_2"
-             style="width:280px; border-radius:6px;">
-      </td>
-    </tr>
-  </table>
+  <!-- 상단 컬럼 제목 줄 -->
+  <tr style="background:#111111;">
+    <td align="center" width="50%" style="padding:10px; color:#ffffff; font-weight:600;">
+      돈길 계약하기 (자녀)
+    </td>
+    <td align="center" width="50%" style="padding:10px; color:#ffffff; font-weight:600;">
+      돈길 걷기 탭 (자녀)
+    </td>
+  </tr>
+
+  <!-- 설명 줄 (원하면 지워도 됨) -->
+  <tr style="background:#1b1b1b;">
+    <td align="center" style="padding:10px; color:#ffffff; font-size:13px;">
+      계약 대상 → 계약 상품 → 이름, 목표금액 →<br>
+      이자율, 매주 저금액 → 서명 → 계약서 확인
+    </td>
+    <td align="center" style="padding:10px; color:#ffffff; font-size:13px;">
+      -
+    </td>
+  </tr>
+
+  <!-- 이미지 들어가는 본문 박스 -->
+  <tr style="background:#151515;">
+    <td align="center" style="padding:20px; border-right:1px solid #333333;">
+      <img src="IMAGE_URL_1" style="width:260px; border-radius:4px;">
+    </td>
+    <td align="center" style="padding:20px;">
+      <img src="IMAGE_URL_2" style="width:260px; border-radius:4px;">
+    </td>
+  </tr>
+
+</table>
+
 
 </div>
 
