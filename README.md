@@ -56,6 +56,7 @@
       </td>
     </tr>
   </table>
+
   <!-- 이미지 2개 (본문 박스) -->
   <table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;">
     <tr>
@@ -72,6 +73,9 @@
 
     </tr>
   </table>
+
+</div>
+
 
 </div>
 
