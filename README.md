@@ -70,7 +70,6 @@
         <img src="IMAGE_URL_2"
              style="width:280px; border-radius:6px;">
       </td>
-
     </tr>
   </table>
 
