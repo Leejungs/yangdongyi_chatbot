@@ -41,25 +41,65 @@
 
 # 3. 양동이는 이런 문제를 해결합니다
 
-### ✔ 공지사항 자동 요약
-- 복잡한 공지사항을 **핵심만 추려서 요약**
-- 중요한 내용만 빠르게 확인 가능
+<div align="center">
 
-### ✔ 실시간 학사 Q&A
-- “다음 주 일정 뭐 있어?”, “휴강했어?” 같은 자연어 질문 처리
-- 학사 관련 자유 질의응답 지원
+<table>
+  <tr>
+    <td width="30%" align="center" style="padding: 20px; border: 1px solid #333; border-radius: 10px; background:#0f0f0f;">
+      <img src="이미지URL_공지" width="60"><br><br>
+      <b>공지사항 자동 요약</b>
+      <p align="left">
+      • 복잡한 공지사항을 핵심만 요약<br>
+      • 중요한 정보만 빠르게 확인
+      </p>
+    </td>
+    <td width="30%" align="center" style="padding: 20px; border: 1px solid #333; border-radius: 10px; background:#0f0f0f;">
+      <img src="이미지URL_QA" width="60"><br><br>
+      <b>실시간 학사 Q&A</b>
+      <p align="left">
+      • 자연어 기반 학사 질문 처리<br>
+      • 학사 일정, 휴강 정보 실시간 응답
+      </p>
+    </td>
+    <td width="30%" align="center" style="padding: 20px; border: 1px solid #333; border-radius: 10px; background:#0f0f0f;">
+      <img src="이미지URL_일정" width="60"><br><br>
+      <b>학사 일정/공지 자동 연동</b>
+      <p align="left">
+      • 시험 일정, 시간표, 휴강 정보 자동 수집<br>
+      • 크롤링 기반 최신성 유지
+      </p>
+    </td>
+  </tr>
+  <tr><td colspan="3" height="20"></td></tr>
+  <tr>
+    <td width="30%" align="center" style="padding: 20px; border: 1px solid #333; border-radius: 10px; background:#0f0f0f;">
+      <img src="이미지URL_즐겨찾기" width="60"><br><br>
+      <b>즐겨찾기 & 대화 저장</b>
+      <p align="left">
+      • 자주 묻는 질문을 즐겨찾기로 관리<br>
+      • 모든 대화 저장/삭제 가능
+      </p>
+    </td>
+    <td width="30%" align="center" style="padding: 20px; border: 1px solid #333; border-radius: 10px; background:#0f0f0f;">
+      <img src="이미지URL_모바일" width="60"><br><br>
+      <b>모바일 UI 지원</b>
+      <p align="left">
+      • 스마트폰에서도 빠르게 확인 가능<br>
+      • 반응형 웹 UI 제공
+      </p>
+    </td>
+    <td width="30%" align="center" style="padding: 20px; border: 1px solid #333; border-radius: 10px; background:#0f0f0f;">
+      <img src="이미지URL_AI" width="60"><br><br>
+      <b>AI 기반 학사 도우미</b>
+      <p align="left">
+      • GPT 기반 자연어 처리<br>
+      • 사용자의 질문 의도를 이해하고 응답
+      </p>
+    </td>
+  </tr>
+</table>
 
-### ✔ 학사 일정·공지 자동 연동
-- 시험 일정, 강의 시간표, 휴강/보강 정보 자동 수집
-- 크롤링 기반 최신성 유지
-
-### ✔ 즐겨찾기 & 대화 저장
-- 자주 묻는 질문을 즐겨찾기로 관리
-- 이전 대화 모두 저장/삭제 가능
-
-### ✔ 모바일 UI 지원
-- 스마트폰에서도 빠르게 확인 가능한 반응형 웹
-
+</div>
 <br>
 
 ---
