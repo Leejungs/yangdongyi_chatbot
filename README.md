@@ -43,63 +43,25 @@
 
 ## 주요 기능
 
-<!-- 전체 컨테이너 -->
-<div align="center" style="width:100%; display:flex; justify-content:center; gap:20px;">
+## 4.2. 홈 탭 (자녀)
 
-  <!-- 좌측 박스 -->
-  <div style="
-    width:45%; 
-    border:1px solid #333; 
-    border-radius:12px; 
-    padding:16px; 
-    background:#0f0f0f;
-  ">
-    <h3 style="color:#fff;">회원관리 (공통)</h3>
-    <p style="color:#bbb; font-size:14px; margin-top:-8px;">
-      애플 소셜 로그인 → 로그아웃 → 카카오 소셜 로그인 → 회원 탈퇴
-    </p>
-    <!-- 영상/이미지 영역 -->
-    <div style="
-      width:100%; 
-      background:#111; 
-      padding:10px; 
-      border-radius:8px; 
-      margin-top:12px;
-    ">
-      <!-- 여기 부분만 교체하면 됨 -->
-      <img src="YOUR_IMAGE_OR_VIDEO_THUMBNAIL" width="100%" />
-      <!-- 실제 영상 링크 연결도 가능
-      <a href="YOUR_VIDEO_LINK">▶ 영상 보러가기</a>
-      -->
-    </div>
-  </div>
+|                         홈 탭 (자녀)                         |                         홈 탭 (자녀)                         |                       알림내역 (공통)                        |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|    걷고있는 돈길 → 돈길 포기하기<br />→ 실패한 돈길 삭제     |               대기중인 돈길 → 거절된 돈길 삭제               |                         무한 스크롤                          |
+| <img src="https://user-images.githubusercontent.com/83692797/195265630-cdf4a7a9-9a5b-4aef-a95e-8deec1fa73c8.gif" alt="자녀 홈 걷고있는 돈길_compressed" style="zoom:33%;" /> | <img src="https://user-images.githubusercontent.com/83692797/195265658-426cec67-a1cf-4c28-b401-a89134b562e2.gif" alt="자녀 홈 대기중인 돈길" style="zoom:33%;" /> | <img src="https://user-images.githubusercontent.com/83692797/195265679-cadcc309-da94-4371-85e7-dc00ac4c420c.gif" alt="알림 내역_compressed" style="zoom:33%;" /> |
 
-  <!-- 우측 박스 -->
-  <div style="
-    width:45%; 
-    border:1px solid #333; 
-    border-radius:12px; 
-    padding:16px; 
-    background:#0f0f0f;
-  ">
-    <h3 style="color:#fff;">온보딩 (공통)</h3>
-    <p style="color:#bbb; font-size:14px; margin-top:-8px;">
-      생년월일 → 프로필 → 푸시알림 동의 → 튜토리얼 → 홈
-    </p>
-    <!-- 영상/이미지 영역 -->
-    <div style="
-      width:100%; 
-      background:#111; 
-      padding:10px; 
-      border-radius:8px; 
-      margin-top:12px;
-    ">
-      <!-- 여기 부분만 교체하면 됨 -->
-      <img src="YOUR_IMAGE_OR_VIDEO_THUMBNAIL" width="100%" />
-    </div>
-  </div>
+<details>
+<summary>자세히</summary>
+<div markdown="1">
+
+  - 홈 탭에서는 서로간 종속성을 갖는 네가지 종류의 돈길에 대한 CRUD가 가능합니다.
+  - 홈 탭의 데이터는 React-Query 기반의 interval refetching을 통해 최신상태를 유지합니다.
+  - 알림내역은 무한스크롤 기반으로 데이터를 지속적으로 fetch 합니다.
 
 </div>
+</details>
+
+<br/>
 
 
 
