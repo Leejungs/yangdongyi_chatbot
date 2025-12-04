@@ -123,4 +123,9 @@
 | 📱 **반응형 UI 제공** | 모바일 & 태블릿에서도 최적화된 인터페이스 제공 |
 
 
+---
+# 팀원 소개
+<table> <tr> <td align="center"> <strong>김욱현</strong><br> 🖥 Frontend Developer<br> 로그인/대화 UI, 스타일링<br> <a href="#">GitHub</a> </td> <td align="center"> <strong>최지안</strong><br> 🎨 Frontend Developer<br> 전체 UI/UX, 반응형 화면<br> <a href="#">GitHub</a> </td> <td align="center"> <strong>박소연</strong><br> ⚙ Backend Developer<br> 서버 구조, API 설계<br> <a href="#">GitHub</a> </td> </tr> <tr> <td align="center"> <strong>이정수</strong><br> 🔧 Backend Developer<br> Flask/DB 연동, 챗봇 API<br> <a href="https://github.com/Leejungs">GitHub</a> </td> <td align="center"> <strong>최소원</strong><br> 🤖 AI Engineer<br> LLM·RAG 구성, 모델 튜닝<br> <a href="#">GitHub</a> </td> <td align="center"> <strong>차성준</strong><br> 🧠 AI Engineer<br> 공지 크롤링, 임베딩/DB 구축<br> <a href="#">GitHub</a> </td> </tr> </table>
+
+
 
