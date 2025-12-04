@@ -41,59 +41,39 @@
 
 # 3. 양동이는 이런 문제를 해결합니다
 
-## 🔍 주요 기능
+## 주요 기능
 
 <table width="100%" cellspacing="0" cellpadding="0">
-  <!-- 상단 타이틀 줄 -->
+
+  <!-- 상단 제목 -->
   <tr bgcolor="#111111">
-    <td colspan="2" style="padding: 10px 16px; color: #ffffff; font-weight: 700; font-size: 18px;">
-      4.1 주요 기능 (공통)
+    <td colspan="2" style="padding: 12px 16px; color: #ffffff; font-weight: 700; font-size: 18px;">
+      섹션 제목
     </td>
   </tr>
 
-  <!-- 중간 헤더 라인 -->
+  <!-- 칼럼 제목 -->
   <tr bgcolor="#1b1b1b">
     <td align="center" width="50%" style="padding: 10px; color:#ffffff; font-weight:600;">
-      공지·일정 관리
+      제목 1
     </td>
     <td align="center" width="50%" style="padding: 10px; color:#ffffff; font-weight:600;">
-      대화·사용자 인터페이스
+      제목 2
     </td>
   </tr>
 
-  <!-- 실제 박스 내용 -->
+  <!-- 이미지 박스 -->
   <tr bgcolor="#151515">
-    <!-- 왼쪽 박스 -->
     <td align="center" valign="top" style="padding: 20px; border-right: 1px solid #333333;">
-      <!-- 여기에 공지/일정 관련 이미지를 넣어줘 -->
-      <img src="IMAGE_URL_1" width="260"><br><br>
-      <div align="left" style="color:#f5f5f5; font-size:14px; line-height:1.6;">
-        <b>✔ 공지사항 자동 요약</b><br>
-        · 복잡한 공지사항을 핵심만 추려서 요약<br>
-        · 중요한 내용만 빠르게 확인 가능<br><br>
-        <b>✔ 학사 일정·공지 자동 연동</b><br>
-        · 시험 일정, 강의 시간표, 휴강/보강 정보 자동 수집<br>
-        · 크롤링 기반으로 항상 최신 정보 유지
-      </div>
+      <img src="IMAGE_URL_1" width="260">
     </td>
-    <!-- 오른쪽 박스 -->
     <td align="center" valign="top" style="padding: 20px;">
-      <!-- 여기에 Q&A/대화창 관련 이미지를 넣어줘 -->
-      <img src="IMAGE_URL_2" width="260"><br><br>
-      <div align="left" style="color:#f5f5f5; font-size:14px; line-height:1.6;">
-        <b>✔ 실시간 학사 Q&A</b><br>
-        · “다음 주 일정 뭐 있어?”, “휴강했어?” 같은 자연어 질문 처리<br>
-        · 학사 관련 자유 질의응답 지원<br><br>
-        <b>✔ 즐겨찾기 & 대화 저장</b><br>
-        · 자주 묻는 질문을 즐겨찾기로 관리<br>
-        · 이전 대화 히스토리 저장/삭제 기능 제공<br><br>
-        <b>✔ 모바일 UI 지원</b><br>
-        · 스마트폰에서도 빠르게 확인 가능한 반응형 웹<br>
-        · 학생이 주로 사용하는 환경(모바일)에 최적화
-      </div>
+      <img src="IMAGE_URL_2" width="260">
     </td>
   </tr>
+
 </table>
+
 
 <br>
 
