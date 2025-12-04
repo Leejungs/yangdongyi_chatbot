@@ -125,7 +125,56 @@
 
 ---
 # 팀원 소개
-<table> <tr> <td align="center"> <strong>김욱현</strong><br> 🖥 Frontend Developer<br> 로그인/대화 UI, 스타일링<br> <a href="#">GitHub</a> </td> <td align="center"> <strong>최지안</strong><br> 🎨 Frontend Developer<br> 전체 UI/UX, 반응형 화면<br> <a href="#">GitHub</a> </td> <td align="center"> <strong>박소연</strong><br> ⚙ Backend Developer<br> 서버 구조, API 설계<br> <a href="#">GitHub</a> </td> </tr> <tr> <td align="center"> <strong>이정수</strong><br> 🔧 Backend Developer<br> Flask/DB 연동, 챗봇 API<br> <a href="https://github.com/Leejungs">GitHub</a> </td> <td align="center"> <strong>최소원</strong><br> 🤖 AI Engineer<br> LLM·RAG 구성, 모델 튜닝<br> <a href="#">GitHub</a> </td> <td align="center"> <strong>차성준</strong><br> 🧠 AI Engineer<br> 공지 크롤링, 임베딩/DB 구축<br> <a href="#">GitHub</a> </td> </tr> </table>
+## 👥 Team Members
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="160">
+      <!-- 팀원 프로필 이미지 (옵션) -->
+      <!-- <img src="이미지URL" width="120" height="120" style="border-radius:50%;"> -->
+      <br><b>김욱현</b><br>
+      Frontend Developer<br>
+      <a href="#">GitHub</a>
+    </td>
+    <td align="center" width="160">
+      <!-- <img src="이미지URL" width="120" height="120" style="border-radius:50%;"> -->
+      <br><b>최지안</b><br>
+      Frontend Developer<br>
+      <a href="https://github.com/jjian2">GitHub</a>
+    </td>
+    <td align="center" width="160">
+      <!-- <img src="이미지URL" width="120" height="120" style="border-radius:50%;"> -->
+      <br><b>박소연</b><br>
+      Backend Developer<br>
+      <a href="#">GitHub</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="160">
+      <!-- <img src="이미지URL" width="120" height="120" style="border-radius:50%;"> -->
+      <br><b>이정수</b><br>
+      Backend Developer<br>
+      <a href="https://github.com/Leejungs">GitHub</a>
+    </td>
+    <td align="center" width="160">
+      <!-- <img src="이미지URL" width="120" height="120" style="border-radius:50%;"> -->
+      <br><b>최소원</b><br>
+      AI Engineer<br>
+      <a href="#">GitHub</a>
+    </td>
+    <td align="center" width="160">
+      <!-- <img src="이미지URL" width="120" height="120" style="border-radius:50%;"> -->
+      <br><b>차성준</b><br>
+      AI Engineer<br>
+      <a href="#">GitHub</a>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 
 
