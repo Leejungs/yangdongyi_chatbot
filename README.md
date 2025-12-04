@@ -71,7 +71,7 @@
 
   <!-- 이미지 들어가는 본문 박스 -->
   <tr style="background:#151515;">
-    <td align="center" style="padding:20px; border-right:1px solid #333333;">
+    <td align="center" style="padding:100px; border-right:1px solid #333333;">
       <img src="https://github.com/user-attachments/assets/347192b1-81ab-4765-ab46-55bc58e48611" style="width:700px; border-radius:4px;">
     </td>
     <td align="center" style="padding:20px;">
