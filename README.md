@@ -1,6 +1,5 @@
-<img width="134" height="134" alt="522314396-e3b29b51-63d3-4f07-bd9c-994524d8352a-Photoroom" src="https://github.com/user-attachments/assets/58fdf186-9f45-40d4-85ef-17a5187747ed" /><div style="display: flex; align-items: center;">
-  <img src="<img width="134" height="134" alt="522314396-e3b29b51-63d3-4f07-bd9c-994524d8352a-Photoroom" src="https://github.com/user-attachments/assets/1a194142-8ef8-42ff-9366-b6c6c141080f" />
-" width="90" style="margin-right: 15px;">
+<div style="display: flex; align-items: center;">
+  <img src="https://github.com/user-attachments/assets/d0f151a2-bda4-4454-a299-2c2e4240646d" width="90" style="margin-right: 15px;">
   <h1 style="margin: 0;">양동이 챗봇 (Yangdongyi Chatbot)</h1>
 </div>
 
