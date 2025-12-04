@@ -141,7 +141,7 @@
       <a href="https://github.com/USER1">GitHub</a>
     </td>
     <td align="center" width="150">
-      <img src="https://github.com/USER2.png" width="100" height="100" style="border-radius:50%;">
+      <img src="https://github.com/jjian2.png" width="100" height="100" style="border-radius:50%;">
       <br><b>최지안</b><br>
       Frontend<br>
       <a href="https://github.com/jjian2">GitHub</a>
