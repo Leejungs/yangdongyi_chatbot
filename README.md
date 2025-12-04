@@ -1,4 +1,5 @@
-<img width="134" height="134" alt="522314396-e3b29b51-63d3-4f07-bd9c-994524d8352a-Photoroom" src="https://github.com/user-attachments/assets/41374f9d-dbe1-4871-bd6b-49b0c76d17dc" /><h1>양동이 챗봇 (Yangdongyi Chatbot)</h1><p>동양미래대학교 학사 정보를 더 쉽고, 더 빠르게, 더 정확하게 전달하기 위한 대학생 전용 AI 도우미</p>
+<img width="134" height="134" alt="522314396-e3b29b51-63d3-4f07-bd9c-994524d8352a-Photoroom" src="https://github.com/user-attachments/assets/41374f9d-dbe1-4871-bd6b-49b0c76d17dc" />
+<h1>양동이 챗봇 (Yangdongyi Chatbot)</h1><p>동양미래대학교 학사 정보를 더 쉽고, 더 빠르게, 더 정확하게 전달하기 위한 대학생 전용 AI 도우미</p>
 
 <br>
 
