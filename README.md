@@ -43,58 +43,61 @@
 
 ## 주요 기능
 
-### 4.3. 돈길 계약하기, 돈길 걷기 탭 (자녀)
+<!-- 전체 컨테이너 -->
+<div align="center" style="width:100%; display:flex; justify-content:center; gap:20px;">
 
+  <!-- 좌측 박스 -->
+  <div style="
+    width:45%; 
+    border:1px solid #333; 
+    border-radius:12px; 
+    padding:16px; 
+    background:#0f0f0f;
+  ">
+    <h3 style="color:#fff;">회원관리 (공통)</h3>
+    <p style="color:#bbb; font-size:14px; margin-top:-8px;">
+      애플 소셜 로그인 → 로그아웃 → 카카오 소셜 로그인 → 회원 탈퇴
+    </p>
+    <!-- 영상/이미지 영역 -->
+    <div style="
+      width:100%; 
+      background:#111; 
+      padding:10px; 
+      border-radius:8px; 
+      margin-top:12px;
+    ">
+      <!-- 여기 부분만 교체하면 됨 -->
+      <img src="YOUR_IMAGE_OR_VIDEO_THUMBNAIL" width="100%" />
+      <!-- 실제 영상 링크 연결도 가능
+      <a href="YOUR_VIDEO_LINK">▶ 영상 보러가기</a>
+      -->
+    </div>
+  </div>
 
-<!-- 4.3. 돈길 계약하기, 돈길 걷기 탭 (자녀) 처럼 쓰고, 아래 박스 넣기 -->
-<div align="center">
-
-  <table
-    cellspacing="0"
-    cellpadding="0"
-    style="
-      max-width: 1000px;
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 12px;
-      background: #050505;
-    "
-  >
-    <!-- 상단 컬럼 제목 -->
-    <tr style="background:#111111;">
-      <td align="center" style="padding:12px 8px; color:#ffffff; font-weight:600;">
-        돈길 계약하기 (자녀)
-      </td>
-      <td align="center" style="padding:12px 8px; color:#ffffff; font-weight:600;">
-        돈길 걷기 탭 (자녀)
-      </td>
-    </tr>
-    <!-- 이미지만 들어가는 본문 -->
-    <tr style="background:#151515;">
-      <td
-        align="center"
-        style="padding:28px 16px; border-right:1px solid #333333;"
-      >
-        <img
-          src="https://github.com/user-attachments/assets/18c450d0-f990-4ae0-9f71-807af9becc0b"
-          style="width:100%; max-width:360px; border-radius:6px;"
-        />
-      </td>
-      <td align="center" style="padding:28px 16px;">
-        <img
-          src="IMAGE_URL_2"
-          style="width:100%; max-width:360px; border-radius:6px;"
-        />
-      </td>
-    </tr>
-  </table>
-
-</div>
-
-
-
-</div>
-
+  <!-- 우측 박스 -->
+  <div style="
+    width:45%; 
+    border:1px solid #333; 
+    border-radius:12px; 
+    padding:16px; 
+    background:#0f0f0f;
+  ">
+    <h3 style="color:#fff;">온보딩 (공통)</h3>
+    <p style="color:#bbb; font-size:14px; margin-top:-8px;">
+      생년월일 → 프로필 → 푸시알림 동의 → 튜토리얼 → 홈
+    </p>
+    <!-- 영상/이미지 영역 -->
+    <div style="
+      width:100%; 
+      background:#111; 
+      padding:10px; 
+      border-radius:8px; 
+      margin-top:12px;
+    ">
+      <!-- 여기 부분만 교체하면 됨 -->
+      <img src="YOUR_IMAGE_OR_VIDEO_THUMBNAIL" width="100%" />
+    </div>
+  </div>
 
 </div>
 
