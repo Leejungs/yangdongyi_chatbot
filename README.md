@@ -152,7 +152,6 @@
       <a href="https://github.com/USER3">GitHub</a>
     </td>
   </tr>
-
   <tr>
     <td align="center" width="160">
       <img src="https://github.com/Leejungs.png" width="120" height="120" style="border-radius:50%;">
