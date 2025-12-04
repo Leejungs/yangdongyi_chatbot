@@ -43,29 +43,38 @@
 
 ## 주요 기능
 
-<table width="100%" cellspacing="0" cellpadding="0">
+<div style="width:100%; background:#0d0d0d; padding:20px; border-radius:8px; border:1px solid #222;">
 
-  <!-- 상단 제목 줄 -->
-  <tr style="background:#111111;">
-    <td align="center" width="50%" style="padding:10px; color:#ffffff; font-weight:600;">
-      제목 1
-    </td>
-    <td align="center" width="50%" style="padding:10px; color:#ffffff; font-weight:600;">
-      제목 2
-    </td>
-  </tr>
+  <!-- 제목 2개 (상단 바) -->
+  <table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse; margin-bottom:10px;">
+    <tr style="background:#111;">
+      <td align="center" width="50%" style="padding:12px; color:#fff; font-size:18px; font-weight:600;">
+        제목 1
+      </td>
+      <td align="center" width="50%" style="padding:12px; color:#fff; font-size:18px; font-weight:600;">
+        제목 2
+      </td>
+    </tr>
+  </table>
+  <!-- 이미지 2개 (본문 박스) -->
+  <table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;">
+    <tr>
+      <!-- LEFT IMAGE -->
+      <td align="center" width="50%" style="padding:20px; border-right:1px solid #333;">
+        <img src="IMAGE_URL_1"
+             style="width:280px; border-radius:6px;">
+      </td>
+      <!-- RIGHT IMAGE -->
+      <td align="center" width="50%" style="padding:20px;">
+        <img src="IMAGE_URL_2"
+             style="width:280px; border-radius:6px;">
+      </td>
 
-  <!-- 이미지 들어가는 박스 줄 -->
-  <tr style="background:#151515;">
-    <td align="center" style="padding:20px; border-right:1px solid #333333;">
-      <img src="IMAGE_URL_1" width="260">
-    </td>
-    <td align="center" style="padding:20px;">
-      <img src="IMAGE_URL_2" width="260">
-    </td>
-  </tr>
+    </tr>
+  </table>
 
-</table>
+</div>
+
 
 
 
