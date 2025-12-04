@@ -46,36 +46,36 @@
 ### 4.3. 돈길 계약하기, 돈길 걷기 탭 (자녀)
 
 
-<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse; margin-top:8px;">
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse; margin-top:16px;">
 
   <!-- 상단 컬럼 제목 줄 -->
   <tr style="background:#111111;">
-    <td align="center" width="50%" style="padding:10px; color:#ffffff; font-weight:600;">
+    <td align="center" width="50%" style="padding:18px; color:#ffffff; font-size:20px; font-weight:700;">
       돈길 계약하기 (자녀)
     </td>
-    <td align="center" width="50%" style="padding:10px; color:#ffffff; font-weight:600;">
+    <td align="center" width="50%" style="padding:18px; color:#ffffff; font-size:20px; font-weight:700;">
       돈길 걷기 탭 (자녀)
     </td>
   </tr>
 
-  <!-- 설명 줄 (원하면 지워도 됨) -->
+  <!-- 설명 줄 -->
   <tr style="background:#1b1b1b;">
-    <td align="center" style="padding:10px; color:#ffffff; font-size:13px;">
+    <td align="center" style="padding:16px; color:#ffffff; font-size:14px; line-height:20px;">
       계약 대상 → 계약 상품 → 이름, 목표금액 →<br>
       이자율, 매주 저금액 → 서명 → 계약서 확인
     </td>
-    <td align="center" style="padding:10px; color:#ffffff; font-size:13px;">
+    <td align="center" style="padding:16px; color:#ffffff; font-size:14px;">
       -
     </td>
   </tr>
 
   <!-- 이미지 들어가는 본문 박스 -->
   <tr style="background:#151515;">
-    <td align="center" style="padding:100px; border-right:1px solid #333333;">
-      <img src="https://github.com/user-attachments/assets/347192b1-81ab-4765-ab46-55bc58e48611" style="width:700px; border-radius:4px;">
+    <td align="center" style="padding:32px; border-right:2px solid #333333;">
+      <img src="https://github.com/user-attachments/assets/347192b1-81ab-4765-ab46-55bc58e48611" style="width:380px; border-radius:6px; margin-bottom:20px;">
     </td>
-    <td align="center" style="padding:20px;">
-      <img src="IMAGE_URL_2" style="width:260px; border-radius:4px;">
+    <td align="center" style="padding:32px;">
+      <img src="IMAGE_URL_2" style="width:380px; border-radius:6px; margin-bottom:20px;">
     </td>
   </tr>
 
