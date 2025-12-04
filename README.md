@@ -45,34 +45,28 @@
 
 <table width="100%" cellspacing="0" cellpadding="0">
 
-  <!-- 상단 제목 -->
-  <tr bgcolor="#111111">
-    <td colspan="2" style="padding: 12px 16px; color: #ffffff; font-weight: 700; font-size: 18px;">
-      섹션 제목
-    </td>
-  </tr>
-
-  <!-- 칼럼 제목 -->
-  <tr bgcolor="#1b1b1b">
-    <td align="center" width="50%" style="padding: 10px; color:#ffffff; font-weight:600;">
+  <!-- 상단 제목 줄 -->
+  <tr style="background:#111111;">
+    <td align="center" width="50%" style="padding:10px; color:#ffffff; font-weight:600;">
       제목 1
     </td>
-    <td align="center" width="50%" style="padding: 10px; color:#ffffff; font-weight:600;">
+    <td align="center" width="50%" style="padding:10px; color:#ffffff; font-weight:600;">
       제목 2
     </td>
   </tr>
 
-  <!-- 이미지 박스 -->
-  <tr bgcolor="#151515">
-    <td align="center" valign="top" style="padding: 20px; border-right: 1px solid #333333;">
+  <!-- 이미지 들어가는 박스 줄 -->
+  <tr style="background:#151515;">
+    <td align="center" style="padding:20px; border-right:1px solid #333333;">
       <img src="IMAGE_URL_1" width="260">
     </td>
-    <td align="center" valign="top" style="padding: 20px;">
+    <td align="center" style="padding:20px;">
       <img src="IMAGE_URL_2" width="260">
     </td>
   </tr>
 
 </table>
+
 
 
 <br>
